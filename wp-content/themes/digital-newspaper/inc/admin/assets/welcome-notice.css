@@ -1,0 +1,60 @@
+/*---------------------------
+   Welcome Notice Styling
+----------------------------*/
+.digital-newspaper-welcome-notice {
+    font-family: cursive;
+}
+
+.digital-newspaper-welcome-notice .notice-content-wrap {
+    display: flex;
+}
+
+.digital-newspaper-welcome-notice .notice-dismiss-button {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.digital-newspaper-welcome-notice .notice-dismiss-button a {
+    color: #ff0000;
+}
+
+.digital-newspaper-welcome-notice .notice-highlight {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.digital-newspaper-welcome-notice .notice-content {
+    padding: 0px 20px;
+}
+
+.digital-newspaper-welcome-notice .notice-actions {
+    padding-top: 15px;
+}
+
+.digital-newspaper-welcome-notice .notice-actions a {
+    padding: 6px 22px;
+}
+
+/* page meta */
+#digital-newspaper-post-metabox .radio-image-fields-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  #digital-newspaper-post-metabox .radio-image-fields-wrap .radio-field {
+    padding: 0;
+    margin:0 5px;
+  }
+
+  #digital-newspaper-post-metabox .radio-image-fields-wrap .radio-field img{
+    height: 60px;
+    display: block;
+  }
+  #digital-newspaper-post-metabox .radio-image-fields-wrap  .radio-field.selected {
+    border:3px solid #2271b1; 
+  }
+
+#digital-newspaper-post-metabox .single-meta-field.radio-image-field label{
+  font-weight: 500;
+
+}

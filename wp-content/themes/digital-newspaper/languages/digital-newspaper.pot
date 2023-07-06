@@ -1,0 +1,873 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Newspaper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-19 06:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1\n"
+"X-Domain: digital-newspaper"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:110
+msgid ", "
+msgstr ""
+
+#: 404.php:38 inc/breadcrumb-trail/breadcrumbs.php:314
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/widgets/category-collection.php:16
+msgid "A collection of post categories."
+msgstr ""
+
+#: inc/widgets/posts-grid.php:16
+msgid "A collection of posts from specific category displayed in grid layout."
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:16
+msgid ""
+"A collection of posts from specific category displayed in grid two column "
+"layout."
+msgstr ""
+
+#: inc/widgets/posts-list.php:16
+msgid "A collection of posts from specific category displayed in list layout."
+msgstr ""
+
+#: inc/widgets/carousel.php:16
+msgid "A collection of posts from specific category for carousel slide."
+msgstr ""
+
+#: inc/admin/class-theme-info.php:112
+msgid ""
+"Activate Blazethemes Demo Importer Now and Import any available demo in One "
+"Click"
+msgstr ""
+
+#: inc/widgets/banner-ads.php:70
+msgid "Ad link open in"
+msgstr ""
+
+#: inc/widgets/banner-ads.php:65
+msgid "Ad URL"
+msgstr ""
+
+#: inc/widgets/widget-fields.php:99
+msgid "Add image"
+msgstr ""
+
+#: inc/widgets/author-info.php:82 inc/widgets/carousel.php:101
+#: inc/widgets/category-collection.php:112
+#: inc/widgets/posts-grid-two-column.php:103 inc/widgets/posts-grid.php:111
+#: inc/widgets/posts-list.php:120 inc/widgets/social-icons.php:57
+msgid "Add the widget title here"
+msgstr ""
+
+#: inc/widgets/widget-title.php:51
+msgid "Add the widget title here."
+msgstr ""
+
+#: inc/widgets/widget-fields.php:70
+msgid "Add url here . ."
+msgstr ""
+
+#: inc/widgets/widgets.php:19 inc/widgets/widgets.php:32
+#: inc/widgets/widgets.php:45 inc/widgets/widgets.php:84
+#: inc/widgets/widgets.php:97 inc/widgets/widgets.php:110
+#: inc/widgets/widgets.php:123
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/widgets.php:71
+msgid "Add widgets suitable for middle left here."
+msgstr ""
+
+#: inc/widgets/widgets.php:58
+msgid "Add widgets suitable for middle right here."
+msgstr ""
+
+#: inc/theme-starter.php:322
+msgid "Advertisement Banner"
+msgstr ""
+
+#: inc/template-tags.php:215 inc/template-tags.php:226
+msgid "ago"
+msgstr ""
+
+#: inc/template-functions.php:303 inc/admin/class-theme-info.php:153
+msgid "All"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:238
+msgid "All in one migration"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:107
+msgid "All Prebuilt Demos"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:116
+msgid "All Ready for demo import!! Setup your site exactly like demo"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:315
+msgid "Archives"
+msgstr ""
+
+#: inc/widgets/author-info.php:94
+msgid "Author Image"
+msgstr ""
+
+#: inc/widgets/author-info.php:83
+msgid "Author Info"
+msgstr ""
+
+#: inc/widgets/author-info.php:88 inc/widgets/author-info.php:89
+msgid "Author Name"
+msgstr ""
+
+#: inc/widgets/author-info.php:99
+msgid "Author URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:17
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:487
+msgid "Background Color"
+msgstr ""
+
+#: inc/widgets/banner-ads.php:60
+msgid "Banner Image"
+msgstr ""
+
+#. Author of the theme
+msgid "BlazeThemes"
+msgstr ""
+
+#: functions.php:68
+msgid "Bottom Footer"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:312
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:311
+msgid "Browse:"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:191
+msgid "Buy Now"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:293
+msgid "Cancel"
+msgstr ""
+
+#: inc/widgets/carousel.php:107 inc/widgets/posts-grid-two-column.php:109
+#: inc/widgets/posts-grid.php:117 inc/widgets/posts-list.php:126
+msgid "Categories"
+msgstr ""
+
+#: inc/widgets/category-collection.php:113
+msgid "Category Collection"
+msgstr ""
+
+#: inc/widgets/widget-title.php:61
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/widget-title.php:58
+msgid "change the alignment of the wiget title text."
+msgstr ""
+
+#: inc/widgets/category-collection.php:119
+msgid "Choose the categories to display"
+msgstr ""
+
+#: inc/widgets/carousel.php:108
+msgid "Choose the category to display for carousel posts"
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:110 inc/widgets/posts-grid.php:118
+#: inc/widgets/posts-list.php:127
+msgid "Choose the category to display list of posts"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb-trail/breadcrumbs.php:321
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:38
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/widgets/author-info.php:71
+msgid "Custom"
+msgstr ""
+
+#: inc/widgets/widget-title.php:50
+msgid "Custom Widget Title"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:419
+msgid "Customize Site"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:837
+#: inc/breadcrumb-trail/breadcrumbs.php:1272
+#: inc/breadcrumb-trail/breadcrumbs.php:1274
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:301
+msgid "Demo Import Progress"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:312
+msgid "Demo import success"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:363
+msgid "Demo importer plugin activated"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:376
+msgid "Demo importer plugin installed and activated"
+msgstr ""
+
+#. Name of the theme
+#: inc/admin/class-theme-info.php:32
+msgid "Digital Newspaper"
+msgstr ""
+
+#: inc/theme-starter.php:427
+msgid "Digital Newspaper - Multipurpose News WordPress Theme %year%."
+msgstr ""
+
+#: inc/widgets/author-info.php:15
+msgid "Digital Newspaper : Author Info"
+msgstr ""
+
+#: inc/widgets/banner-ads.php:15
+msgid "Digital Newspaper : Banner Ads"
+msgstr ""
+
+#: inc/widgets/carousel.php:15
+msgid "Digital Newspaper : Carousel Posts"
+msgstr ""
+
+#: inc/widgets/category-collection.php:15
+msgid "Digital Newspaper : Category Collection"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:15
+msgid "Digital Newspaper : Posts Grid"
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:15
+msgid "Digital Newspaper : Posts Grid 2 Column"
+msgstr ""
+
+#: inc/widgets/posts-list.php:15
+msgid "Digital Newspaper : Posts List"
+msgstr ""
+
+#: inc/widgets/social-icons.php:16
+msgid "Digital Newspaper : Social Icons"
+msgstr ""
+
+#: inc/widgets/widget-title.php:15
+msgid "Digital Newspaper : Widget Title"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:69 inc/admin/class-theme-info.php:70
+msgid "Digital Newspaper Info"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Digital Newspaper is now here to captivate WordPress website owners with "
+"unprecedented features you shall only find here first. The main banner has a "
+"professional 3 columns design that’s best suitable for news sites. It comes "
+"with 7 front sections with 7 different news block layouts and 9 custom "
+"Digital Newspaper widgets. You will get to choose separate colors and "
+"designs for all main elements of the page at both the initial and hover "
+"states. There are typography controls (5 font families, and font-weight) for "
+"Site title, Navigation Menu, Block Title, Post Title, Post Meta, Post "
+"Content, Archive, and Single Post. The theme provides custom breadcrumb "
+"trail options for popular plugins - Breadcrumb NavXT, Yoast SEO, and Rank "
+"Math SEO plugin. You will get a welcome dilemma in having to choose between "
+"5 front page sidebar layouts, 5 archive sidebar layouts, 5 post sidebar "
+"layouts, 5 page sidebar layouts with sticky option in each layout, and 2 "
+"basic archive layouts. Also, the header section can be made sticky upon "
+"scrolling up and the theme has a scroll-to-top button. Enjoy the preference "
+"to select between boxed and full-width layouts in all sections. Available "
+"with 4+ pre-built starter websites, that you will get to install in one "
+"click. Demo link: https://doc.blazethemes.com/digital-newspaper/ Video "
+"tutorial: https://youtu.be/W84zqTRS_Wo"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:409
+msgid "Digital Newspaper Welcome Notice"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:425
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:420
+msgid "Documentation"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:87 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:380
+msgid "Error while trying to install or active the plugin."
+msgstr ""
+
+#: inc/theme-starter.php:298
+msgid "Featured posts"
+msgstr ""
+
+#: inc/widgets/social-icons.php:58
+msgid "Find Me On"
+msgstr ""
+
+#: inc/widgets/widgets.php:82
+msgid "Footer Sidebar - Column 1"
+msgstr ""
+
+#: inc/widgets/widgets.php:95
+msgid "Footer Sidebar - Column 2"
+msgstr ""
+
+#: inc/widgets/widgets.php:108
+msgid "Footer Sidebar - Column 3"
+msgstr ""
+
+#: inc/widgets/widgets.php:121
+msgid "Footer Sidebar - Column 4"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:244
+msgid ""
+"For your website to look exactly like the demo,the import process will "
+"install and activate the following plugin if they are not installed or "
+"activated."
+msgstr ""
+
+#: inc/widgets/widgets.php:69
+msgid "Frontpage - Middle Left Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:56
+msgid "Frontpage - Middle Right Sidebar"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:416
+msgid ""
+"Get started with multipurpose magazine theme and give your site a new look. "
+"We recommend you to please go through the documentation to get started with "
+"theme and setup homepage quicky."
+msgstr ""
+
+#: 404.php:46
+msgid "Go back to home"
+msgstr ""
+
+#: inc/widgets/social-icons.php:92
+msgid "go to manage social icons"
+msgstr ""
+
+#: inc/widgets/widgets.php:43
+msgid "Header Toggle Sidebar"
+msgstr ""
+
+#: inc/theme-starter.php:265
+msgid "Headlines"
+msgstr ""
+
+#: inc/widgets/carousel.php:102
+msgid "Highlights"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:313
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:819
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. URI of the theme
+msgid "https://blazethemes.com/theme/digital-newspaper/"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:292
+msgid "Import Demo"
+msgstr ""
+
+#: inc/widgets/social-icons.php:63
+msgid "Inherit global default social icons color"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:197
+msgid "Install"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:114
+msgid ""
+"Install BlazeThemes Demo Importer and Import any available demo in One Click"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:418
+msgid "Install Demos"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:340
+msgid "Installed and Active"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:344
+msgid "Installed but Not Active"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:285
+msgid ""
+"It is always recommended to reset the database for a complete demo import."
+msgstr ""
+
+#: 404.php:42
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:220
+msgid ""
+"It looks like the config file for the demos is missing or conatins errors!. "
+"Demo install can't go futher!"
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/repeater.php:122
+msgid "Item Label"
+msgstr ""
+
+#: inc/template-functions.php:307 inc/template-functions.php:350
+msgid "Last 7 days"
+msgstr ""
+
+#: inc/template-functions.php:327 inc/template-functions.php:370
+msgid "Last Month"
+msgstr ""
+
+#: inc/template-functions.php:319 inc/template-functions.php:362
+msgid "Last Week"
+msgstr ""
+
+#: inc/theme-starter.php:277 inc/widgets/posts-grid-two-column.php:104
+#: inc/widgets/widget-title.php:52
+msgid "Latest News"
+msgstr ""
+
+#: inc/theme-starter.php:336 inc/theme-starter.php:365
+msgid "Latest posts"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:70
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/widgets/widget-title.php:60
+msgid "Left"
+msgstr ""
+
+#: inc/extras/extras.php:272
+msgid "Left Both Sidebar"
+msgstr ""
+
+#: inc/extras/extras.php:264 inc/widgets/widgets.php:30
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:67
+msgid "Main Header"
+msgstr ""
+
+#: inc/widgets/social-icons.php:91
+msgid "Manage social icons from customizer "
+msgstr ""
+
+#: inc/hooks/header-hooks.php:109
+msgid "Menu"
+msgstr ""
+
+#: template-parts/content-single.php:24 template-parts/content.php:33
+msgid "mins"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumb-trail/breadcrumbs.php:323
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:785
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:802
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:836
+#: inc/breadcrumb-trail/breadcrumbs.php:892
+#: inc/breadcrumb-trail/breadcrumbs.php:1265
+#: inc/breadcrumb-trail/breadcrumbs.php:1267
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/widgets/category-collection.php:82
+msgid "News"
+msgstr ""
+
+#: inc/theme-starter.php:154
+msgid "Newsletter"
+msgstr ""
+
+#: template-parts/content-single.php:66
+msgid "Next:"
+msgstr ""
+
+#: inc/template-functions.php:570
+msgid "No posts found"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:275
+msgid "No Required Plugins Found."
+msgstr ""
+
+#: inc/extras/extras.php:260
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:336
+msgid "Not Installed"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:14
+#, php-format
+msgid "Nothing Found for - %1s"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: inc/widgets/banner-ads.php:73
+msgid "Open link in new tab"
+msgstr ""
+
+#: inc/widgets/banner-ads.php:74
+msgid "Open link in same tab"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb-trail/breadcrumbs.php:319
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: template-parts/content-page.php:23 template-parts/content-single.php:51
+msgid "Pages:"
+msgstr ""
+
+#: inc/theme-starter.php:267
+msgid "Popular News"
+msgstr ""
+
+#: inc/widgets/category-collection.php:118
+msgid "Post Categories"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:113
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:184
+msgid "Preview"
+msgstr ""
+
+#: template-parts/content-single.php:65
+msgid "Previous:"
+msgstr ""
+
+#: inc/template-functions.php:346
+msgid "Random"
+msgstr ""
+
+#: inc/theme-starter.php:157
+msgid "Random News"
+msgstr ""
+
+#: inc/theme-starter.php:52
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/theme-starter.php:430
+msgid "Related News"
+msgstr ""
+
+#: inc/widgets/widget-fields.php:103
+msgid "Remove image"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:243
+msgid "Required Plugins"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:283
+msgid "Reset Website"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:284
+msgid ""
+"Reseting the website will delete all your post, pages, custom post types, "
+"categories, taxonomies, images and all other customizer and theme option "
+"settings."
+msgstr ""
+
+#: inc/widgets/widget-title.php:62
+msgid "Right"
+msgstr ""
+
+#: inc/extras/extras.php:276
+msgid "Right Both Sidebar"
+msgstr ""
+
+#: inc/extras/extras.php:268
+msgid "Right Sidebar"
+msgstr ""
+
+#. %s: search query.
+#: search.php:42
+msgid "Search Results for"
+msgstr ""
+
+#. %s is the search query.
+#: inc/breadcrumb-trail/breadcrumbs.php:317
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/widgets/carousel.php:92 inc/widgets/posts-grid-two-column.php:94
+#: inc/widgets/posts-grid.php:102 inc/widgets/posts-list.php:111
+msgid "Select category"
+msgstr ""
+
+#: inc/customizer/selective-refresh.php:299
+#: inc/hooks/bottom-footer-hooks.php:49
+msgid "Setup Bottom Footer Menu"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:90
+msgid "Setup Tutorials"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:124
+msgid "Show post excerpt content"
+msgstr ""
+
+#: inc/widgets/widgets.php:17
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/admin/class-theme-info.php:96
+msgid "Support"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:130
+#, php-format
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: inc/widgets/widget-title.php:57
+msgid "Text Align"
+msgstr ""
+
+#: inc/widgets/banner-ads.php:16
+msgid "The details of advertisement."
+msgstr ""
+
+#: inc/widgets/author-info.php:16
+msgid "The information of  in detail author."
+msgstr ""
+
+#: inc/widgets/social-icons.php:17
+msgid "The list of social icons."
+msgstr ""
+
+#: inc/customizer/customizer.php:460 inc/customizer/customizer.php:474
+msgid "Theme Color"
+msgstr ""
+
+#: inc/widgets/widget-title.php:16
+msgid "Theme custom widget title."
+msgstr ""
+
+#: inc/admin/class-theme-info.php:102
+msgid "Theme demo"
+msgstr ""
+
+#: inc/template-functions.php:323 inc/template-functions.php:366
+msgid "This Month"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:240
+msgid ""
+"This process will install all the required plugins, import contents and "
+"setup customizer and theme options."
+msgstr ""
+
+#: inc/template-functions.php:315 inc/template-functions.php:358
+msgid "This Week"
+msgstr ""
+
+#: inc/template-functions.php:331 inc/template-functions.php:374
+msgid "This Year"
+msgstr ""
+
+#: inc/template-functions.php:311 inc/template-functions.php:354
+msgid "Today"
+msgstr ""
+
+#: functions.php:66
+msgid "Top Header"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:112 inc/widgets/posts-list.php:121
+msgid "Trending News"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/repeater.php:174
+msgid "Type to search"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/repeater.php:156
+msgid "Upload Image"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:238
+#, php-format
+msgid ""
+"We recommend you backup your website content before attempting to import the "
+"demo so that you can recover your website if something goes wrong. You can "
+"use %s plugin for it."
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumb-trail/breadcrumbs.php:325
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:865
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/widgets/author-info.php:81 inc/widgets/carousel.php:100
+#: inc/widgets/category-collection.php:111
+#: inc/widgets/posts-grid-two-column.php:102 inc/widgets/posts-grid.php:110
+#: inc/widgets/posts-list.php:119 inc/widgets/social-icons.php:56
+msgid "Widget Title"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:835
+#: inc/breadcrumb-trail/breadcrumbs.php:864
+#: inc/breadcrumb-trail/breadcrumbs.php:891
+#: inc/breadcrumb-trail/breadcrumbs.php:918
+#: inc/breadcrumb-trail/breadcrumbs.php:1257
+#: inc/breadcrumb-trail/breadcrumbs.php:1259
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/admin/class-theme-info.php:415
+msgid "You have successfully activated Digital Newspaper Premium Version!! "
+msgstr ""
+
+#: inc/theme-starter.php:394
+msgid "You May Have Missed"
+msgstr ""
