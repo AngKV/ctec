@@ -265,7 +265,7 @@
             'ticker_news_date_filter' => 'all',
             'ticker_news_title' => array( "icon"  => "fas fa-dot-circle", "text"   => esc_html__( 'Headlines', 'digital-newspaper' ) ),
             'main_banner_option'    => true,
-            'main_banner_layout'    => 'six',
+            'main_banner_layout'    => 'five',
             'main_banner_list_posts_title'  => esc_html__( 'Popular News', 'digital-newspaper' ),
             'main_banner_list_posts_categories'   => '[]',
             'main_banner_list_posts_order_by'  => 'rand-desc',

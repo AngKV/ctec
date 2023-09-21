@@ -4,7 +4,7 @@ Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-sty
 Requires at least: 5.3
 Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,12 @@ URL: http://github.com/kenwheeler/slick
 License: The MIT License
 
 == Changelog ==
+= 1.1.2 - July 23rd, 2023 =
+    * Changed - default banner layout changed
+
+= 1.1.1 - July 20th, 2023 =
+    * Changed - screenshot image changed
+
 = 1.1.0 - Jun 15th, 2023 =
     * Added - banner layout added
 

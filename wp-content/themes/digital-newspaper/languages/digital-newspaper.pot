@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digital Newspaper\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-19 06:00+0000\n"
+"POT-Creation-Date: 2023-07-23 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.4; wp-6.1.1\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
 "X-Domain: digital-newspaper"
 
 #. used between list items, there is a space after the comma
@@ -21,8 +21,45 @@ msgstr ""
 msgid ", "
 msgstr ""
 
-#: 404.php:38 inc/breadcrumb-trail/breadcrumbs.php:314
+#: inc/customizer/customizer-up.php:37
+msgid "20 + Preloader"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:290
+msgid "3 layouts and more color options"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:370
+msgid ""
+"3 layouts, show in innerpages, show or hide thumbnail, posts offset, "
+"controller hide, marquee settings"
+msgstr ""
+
+#: 404.php:38 inc/template-functions.php:633
+#: inc/breadcrumb-trail/breadcrumbs.php:314
 msgid "404 Not Found"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:573
+msgid ""
+"5 layouts, elements show hide, excerpt length, ajax pagination, elements, "
+"meta reorder show or hide, padding and content background"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:390
+msgid ""
+"5 layouts, posts offset, elements show or hide, related posts count, slider "
+"controls"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:76
+msgid "6 title layouts and 3 search popup layouts"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:191
+msgid ""
+"600+ google fonts, font size, line height, letter spacing, text tranform and "
+"text decoration"
 msgstr ""
 
 #: inc/widgets/category-collection.php:16
@@ -53,6 +90,13 @@ msgid ""
 "Click"
 msgstr ""
 
+#: inc/customizer/customizer-up.php:330
+msgid ""
+"Active menu color, su menu color, background color, menu toggle color, "
+"border top, bottom and typography - font size, line height, letter spacing, "
+"text decoration, text tranform"
+msgstr ""
+
 #: inc/widgets/banner-ads.php:70
 msgid "Ad link open in"
 msgstr ""
@@ -65,10 +109,10 @@ msgstr ""
 msgid "Add image"
 msgstr ""
 
-#: inc/widgets/author-info.php:82 inc/widgets/carousel.php:101
-#: inc/widgets/category-collection.php:112
-#: inc/widgets/posts-grid-two-column.php:103 inc/widgets/posts-grid.php:111
-#: inc/widgets/posts-list.php:120 inc/widgets/social-icons.php:57
+#: inc/widgets/posts-grid-two-column.php:104 inc/widgets/author-info.php:82
+#: inc/widgets/category-collection.php:113 inc/widgets/posts-grid.php:112
+#: inc/widgets/posts-list.php:121 inc/widgets/social-icons.php:57
+#: inc/widgets/carousel.php:101
 msgid "Add the widget title here"
 msgstr ""
 
@@ -95,7 +139,7 @@ msgstr ""
 msgid "Add widgets suitable for middle right here."
 msgstr ""
 
-#: inc/theme-starter.php:322
+#: inc/theme-starter.php:325
 msgid "Advertisement Banner"
 msgstr ""
 
@@ -168,6 +212,10 @@ msgstr ""
 msgid "Browse:"
 msgstr ""
 
+#: inc/customizer/customizer-up.php:114
+msgid "Button font size, border and padding control"
+msgstr ""
+
 #: inc/admin/class-theme-info.php:191
 msgid "Buy Now"
 msgstr ""
@@ -176,12 +224,12 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: inc/widgets/carousel.php:107 inc/widgets/posts-grid-two-column.php:109
-#: inc/widgets/posts-grid.php:117 inc/widgets/posts-list.php:126
+#: inc/widgets/posts-grid-two-column.php:110 inc/widgets/posts-grid.php:118
+#: inc/widgets/posts-list.php:127 inc/widgets/carousel.php:107
 msgid "Categories"
 msgstr ""
 
-#: inc/widgets/category-collection.php:113
+#: inc/widgets/category-collection.php:114
 msgid "Category Collection"
 msgstr ""
 
@@ -193,7 +241,7 @@ msgstr ""
 msgid "change the alignment of the wiget title text."
 msgstr ""
 
-#: inc/widgets/category-collection.php:119
+#: inc/widgets/category-collection.php:120
 msgid "Choose the categories to display"
 msgstr ""
 
@@ -201,8 +249,8 @@ msgstr ""
 msgid "Choose the category to display for carousel posts"
 msgstr ""
 
-#: inc/widgets/posts-grid-two-column.php:110 inc/widgets/posts-grid.php:118
-#: inc/widgets/posts-list.php:127
+#: inc/widgets/posts-grid-two-column.php:111 inc/widgets/posts-grid.php:119
+#: inc/widgets/posts-list.php:128
 msgid "Choose the category to display list of posts"
 msgstr ""
 
@@ -231,8 +279,22 @@ msgstr[1] ""
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
+#: inc/customizer/customizer-up.php:229 inc/customizer/customizer-up.php:552
+msgid ""
+"Copyright editor, Text color, link color and background color, gradient "
+"colors."
+msgstr ""
+
 #: inc/widgets/author-info.php:71
 msgid "Custom"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:613
+msgid "Custom title and content fields"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:593
+msgid "Custom title, content and image upload field"
 msgstr ""
 
 #: inc/widgets/widget-title.php:50
@@ -248,6 +310,14 @@ msgstr ""
 #: inc/breadcrumb-trail/breadcrumbs.php:1274
 msgctxt "daily archives date format"
 msgid "j"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:269
+msgid "Date time color, menu color social icons color and hover colors."
+msgstr ""
+
+#: inc/customizer/customizer-up.php:38
+msgid "Dedicated technical support."
 msgstr ""
 
 #: inc/admin/class-theme-info.php:301
@@ -271,7 +341,7 @@ msgstr ""
 msgid "Digital Newspaper"
 msgstr ""
 
-#: inc/theme-starter.php:427
+#: inc/theme-starter.php:430
 msgid "Digital Newspaper - Multipurpose News WordPress Theme %year%."
 msgstr ""
 
@@ -335,7 +405,7 @@ msgid ""
 "to select between boxed and full-width layouts in all sections. Available "
 "with 4+ pre-built starter websites, that you will get to install in one "
 "click. Demo link: https://doc.blazethemes.com/digital-newspaper/ Video "
-"tutorial: https://youtu.be/W84zqTRS_Wo"
+"tutorial: https://www.youtube.com/watch?v=h1aumrJXlyY"
 msgstr ""
 
 #: inc/admin/class-theme-info.php:409
@@ -344,6 +414,14 @@ msgstr ""
 
 #: inc/admin/class-theme-info.php:425
 msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:210
+msgid "Display ads from shortcode and ads banner sidebar in pro"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:310
+msgid "Display in popup, newsletter shortcode and label color option"
 msgstr ""
 
 #: inc/admin/class-theme-info.php:420
@@ -360,7 +438,7 @@ msgstr ""
 msgid "Error while trying to install or active the plugin."
 msgstr ""
 
-#: inc/theme-starter.php:298
+#: inc/theme-starter.php:301
 msgid "Featured posts"
 msgstr ""
 
@@ -418,7 +496,7 @@ msgstr ""
 msgid "Header Toggle Sidebar"
 msgstr ""
 
-#: inc/theme-starter.php:265
+#: inc/theme-starter.php:266
 msgid "Headlines"
 msgstr ""
 
@@ -435,8 +513,18 @@ msgctxt "hour archives time format"
 msgid "g a"
 msgstr ""
 
+#. Author URI of the theme
+msgid "https://blazethemes.com/"
+msgstr ""
+
 #. URI of the theme
-msgid "https://blazethemes.com/theme/digital-newspaper/"
+msgid "https://blazethemes.com/theme/digital-newspaper-free/"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:172
+msgid ""
+"Icon choices, text label, font size, position, border, padding, and "
+"background options "
 msgstr ""
 
 #: inc/admin/class-theme-info.php:292
@@ -473,8 +561,9 @@ msgid ""
 "It is always recommended to reset the database for a complete demo import."
 msgstr ""
 
-#: 404.php:42
-msgid "It looks like nothing was found at this location. Maybe try a search?"
+#: 404.php:42 inc/template-functions.php:634
+msgid ""
+"It looks like nothing was found at this location. Maybe try another search?"
 msgstr ""
 
 #: inc/admin/class-theme-info.php:220
@@ -505,12 +594,12 @@ msgstr ""
 msgid "Last Week"
 msgstr ""
 
-#: inc/theme-starter.php:277 inc/widgets/posts-grid-two-column.php:104
+#: inc/theme-starter.php:279 inc/widgets/posts-grid-two-column.php:105
 #: inc/widgets/widget-title.php:52
 msgid "Latest News"
 msgstr ""
 
-#: inc/theme-starter.php:336 inc/theme-starter.php:365
+#: inc/theme-starter.php:339 inc/theme-starter.php:368
 msgid "Latest posts"
 msgstr ""
 
@@ -524,11 +613,15 @@ msgstr ""
 msgid "Left"
 msgstr ""
 
+#: inc/customizer/customizer-up.php:133
+msgid "Left and right both sidebar layout"
+msgstr ""
+
 #: inc/extras/extras.php:272
 msgid "Left Both Sidebar"
 msgstr ""
 
-#: inc/extras/extras.php:264 inc/widgets/widgets.php:30
+#: inc/widgets/widgets.php:30 inc/extras/extras.php:264
 msgid "Left Sidebar"
 msgstr ""
 
@@ -542,6 +635,12 @@ msgstr ""
 
 #: inc/hooks/header-hooks.php:109
 msgid "Menu"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:511
+msgid ""
+"Menu color, active menu color, hover color, sub menu color, background color,"
+" border color and typography."
 msgstr ""
 
 #: template-parts/content-single.php:24 template-parts/content.php:33
@@ -572,7 +671,28 @@ msgctxt "monthly archives date format"
 msgid "F"
 msgstr ""
 
-#: inc/widgets/category-collection.php:82
+#: inc/customizer/customizer-up.php:17 inc/customizer/customizer-up.php:56
+#: inc/customizer/customizer-up.php:75 inc/customizer/customizer-up.php:94
+#: inc/customizer/customizer-up.php:113 inc/customizer/customizer-up.php:132
+#: inc/customizer/customizer-up.php:152 inc/customizer/customizer-up.php:171
+#: inc/customizer/customizer-up.php:190 inc/customizer/customizer-up.php:209
+#: inc/customizer/customizer-up.php:228 inc/customizer/customizer-up.php:248
+#: inc/customizer/customizer-up.php:268 inc/customizer/customizer-up.php:289
+#: inc/customizer/customizer-up.php:309 inc/customizer/customizer-up.php:329
+#: inc/customizer/customizer-up.php:349 inc/customizer/customizer-up.php:369
+#: inc/customizer/customizer-up.php:389 inc/customizer/customizer-up.php:489
+#: inc/customizer/customizer-up.php:510 inc/customizer/customizer-up.php:530
+#: inc/customizer/customizer-up.php:551 inc/customizer/customizer-up.php:572
+#: inc/customizer/customizer-up.php:592 inc/customizer/customizer-up.php:612
+msgid "More Features"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:409 inc/customizer/customizer-up.php:429
+#: inc/customizer/customizer-up.php:449 inc/customizer/customizer-up.php:469
+msgid "More sections and news blocks"
+msgstr ""
+
+#: inc/widgets/category-collection.php:83
 msgid "News"
 msgstr ""
 
@@ -629,15 +749,19 @@ msgstr ""
 msgid "Page %s"
 msgstr ""
 
-#: template-parts/content-page.php:23 template-parts/content-single.php:51
+#: template-parts/content-single.php:51 template-parts/content-page.php:23
 msgid "Pages:"
 msgstr ""
 
-#: inc/theme-starter.php:267
+#: inc/theme-starter.php:269
 msgid "Popular News"
 msgstr ""
 
-#: inc/widgets/category-collection.php:118
+#: inc/customizer/customizer-up.php:95
+msgid "Post appear animations, more effects choices"
+msgstr ""
+
+#: inc/widgets/category-collection.php:119
 msgid "Post Categories"
 msgstr ""
 
@@ -674,7 +798,7 @@ msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: inc/theme-starter.php:430
+#: inc/theme-starter.php:433
 msgid "Related News"
 msgstr ""
 
@@ -720,8 +844,8 @@ msgstr ""
 msgid "Search results for: %s"
 msgstr ""
 
-#: inc/widgets/carousel.php:92 inc/widgets/posts-grid-two-column.php:94
-#: inc/widgets/posts-grid.php:102 inc/widgets/posts-list.php:111
+#: inc/widgets/posts-grid-two-column.php:95 inc/widgets/posts-grid.php:103
+#: inc/widgets/posts-list.php:112 inc/widgets/carousel.php:92
 msgid "Select category"
 msgstr ""
 
@@ -734,7 +858,19 @@ msgstr ""
 msgid "Setup Tutorials"
 msgstr ""
 
-#: inc/widgets/posts-grid.php:124
+#: inc/customizer/customizer-up.php:350
+msgid ""
+"show or hide image, post title, post date, number of posts to display, view "
+"all button and link target options"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:249
+msgid ""
+"Show or hide post title, meta, categories, author, elements reorder, "
+"typography and content background, "
+msgstr ""
+
+#: inc/widgets/posts-grid.php:125
 msgid "Show post excerpt content"
 msgstr ""
 
@@ -764,6 +900,14 @@ msgstr ""
 
 #: inc/widgets/widget-title.php:57
 msgid "Text Align"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:531
+msgid "Text color and background color, image, gradient colors."
+msgstr ""
+
+#: inc/customizer/customizer-up.php:153
+msgid "Text color, link color and background options"
 msgstr ""
 
 #: inc/widgets/banner-ads.php:16
@@ -812,11 +956,15 @@ msgstr ""
 msgid "Today"
 msgstr ""
 
+#: inc/customizer/customizer-up.php:490
+msgid "Toggle bar color and search icon color."
+msgstr ""
+
 #: functions.php:66
 msgid "Top Header"
 msgstr ""
 
-#: inc/widgets/posts-grid.php:112 inc/widgets/posts-list.php:121
+#: inc/widgets/posts-grid.php:113 inc/widgets/posts-list.php:122
 msgid "Trending News"
 msgstr ""
 
@@ -824,8 +972,38 @@ msgstr ""
 msgid "Type to search"
 msgstr ""
 
+#: inc/customizer/customizer-up.php:410 inc/customizer/customizer-up.php:430
+#: inc/customizer/customizer-up.php:450 inc/customizer/customizer-up.php:470
+msgid ""
+"Unlimited sections, background color, gradient and image, three column, two "
+"column and video playlist section"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:18
+msgid "Unlimited social icons items with unlimited choices"
+msgstr ""
+
 #: inc/customizer/custom-controls/repeater/repeater.php:156
 msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer/customizer-up.php:24 inc/customizer/customizer-up.php:43
+#: inc/customizer/customizer-up.php:62 inc/customizer/customizer-up.php:81
+#: inc/customizer/customizer-up.php:100 inc/customizer/customizer-up.php:119
+#: inc/customizer/customizer-up.php:139 inc/customizer/customizer-up.php:158
+#: inc/customizer/customizer-up.php:177 inc/customizer/customizer-up.php:196
+#: inc/customizer/customizer-up.php:215 inc/customizer/customizer-up.php:235
+#: inc/customizer/customizer-up.php:255 inc/customizer/customizer-up.php:276
+#: inc/customizer/customizer-up.php:296 inc/customizer/customizer-up.php:316
+#: inc/customizer/customizer-up.php:336 inc/customizer/customizer-up.php:356
+#: inc/customizer/customizer-up.php:376 inc/customizer/customizer-up.php:396
+#: inc/customizer/customizer-up.php:416 inc/customizer/customizer-up.php:436
+#: inc/customizer/customizer-up.php:456 inc/customizer/customizer-up.php:476
+#: inc/customizer/customizer-up.php:497 inc/customizer/customizer-up.php:517
+#: inc/customizer/customizer-up.php:538 inc/customizer/customizer-up.php:559
+#: inc/customizer/customizer-up.php:579 inc/customizer/customizer-up.php:599
+#: inc/customizer/customizer-up.php:619
+msgid "View Premium"
 msgstr ""
 
 #: inc/admin/class-theme-info.php:238
@@ -834,6 +1012,11 @@ msgid ""
 "We recommend you backup your website content before attempting to import the "
 "demo so that you can recover your website if something goes wrong. You can "
 "use %s plugin for it."
+msgstr ""
+
+#: inc/customizer/customizer-up.php:57
+msgid ""
+"Website frame, Post card box shadow, icons choices for date, author, list"
 msgstr ""
 
 #. Weekly archive title. %s is the week date format.
@@ -847,10 +1030,10 @@ msgctxt "weekly archives date format"
 msgid "W"
 msgstr ""
 
-#: inc/widgets/author-info.php:81 inc/widgets/carousel.php:100
-#: inc/widgets/category-collection.php:111
-#: inc/widgets/posts-grid-two-column.php:102 inc/widgets/posts-grid.php:110
-#: inc/widgets/posts-list.php:119 inc/widgets/social-icons.php:56
+#: inc/widgets/posts-grid-two-column.php:103 inc/widgets/author-info.php:81
+#: inc/widgets/category-collection.php:112 inc/widgets/posts-grid.php:111
+#: inc/widgets/posts-list.php:120 inc/widgets/social-icons.php:56
+#: inc/widgets/carousel.php:100
 msgid "Widget Title"
 msgstr ""
 
@@ -868,6 +1051,6 @@ msgstr ""
 msgid "You have successfully activated Digital Newspaper Premium Version!! "
 msgstr ""
 
-#: inc/theme-starter.php:394
+#: inc/theme-starter.php:397
 msgid "You May Have Missed"
 msgstr ""
