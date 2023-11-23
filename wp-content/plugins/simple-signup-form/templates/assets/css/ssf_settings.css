@@ -1,0 +1,563 @@
+@import url("acustom.css");
+.settings_page_simple_subscription_popup .wrap .form-table th {
+	width: 400px;
+}
+
+#wpcontent {
+	background: #fff !important;
+}
+
+#add_new_ssp, .button {
+	margin: 1px !important;
+}
+
+div#simple_subscription_popup_accordion {
+    margin-top: 50px;
+}
+
+div#simple_subscription_popup_settings {
+    padding-top: 50px;
+}
+
+.resp_text {
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 20px;
+	margin-top: 3px;
+	display: inline-block;
+}
+
+.save_form.button, .delete_form.button, #add_new_ssp  {
+    font-size: 12px !important;
+    font-weight: bold !important;
+	font-family: Arial !important;
+	padding: 10px !important;
+	line-height: 5px !important;
+}
+
+.settings_page_simple_subscription_popup .wrap hr { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+.settings_page_simple_subscription_popup .wrap h3 {
+	font-family: Arial, serif;
+	text-shadow: 4px 4px 4px #aaa;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.settings_page_simple_subscription_popup .wrap h2 {
+	font-family: Arial, serif;
+	text-shadow: 4px 4px 4px #aaa;
+	text-align: left;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.settings_page_simple_subscription_popup .wrap .button {
+	-moz-box-shadow:inset 0px 1px 10px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 10px 0px #ffffff;
+	box-shadow:inset 0px 1px 10px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #878387), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #878387 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#878387', endColorstr='#000000');
+	background-color:#878387;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ede6ed;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	height:27px;
+	line-height:27px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #851111;
+}
+
+#ssp{
+}
+
+.ssp_table {
+	display: table;
+	border-collapse:separate;
+	border-spacing:10px 10px;
+	width: 100%;
+}
+
+.ssp_element {
+	margin: 10px;
+	text-align: center;
+}
+
+.ssp_question {
+	display:table-caption;
+	font-weight: bold;
+}
+
+.ssp_answers {
+	text-decoration: none;
+	display:table-cell;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.ssp_answers:hover {
+	text-decoration: underline;
+	display:table-cell;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.ssp_row {
+	display: table-row;
+}
+
+#simple_subscription_popup_accordion fieldset {
+	border: 1px solid #AAAAAA;
+	padding: 0px;
+	width: 100%;
+}
+ 
+.text input[type=checkbox] {
+	width: 15px;
+}
+
+.text p {
+	font-size: 11px;
+	margin: 5px 0px;
+}
+
+.thankyou {
+	width: 280px !important;
+}
+ 
+.settings_page_simple_subscription_popup .wrap .button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #878387) );
+	background:-moz-linear-gradient( center top, #000000 5%, #878387 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#878387');
+	background-color:#000000;
+}
+.settings_page_simple_subscription_popup .wrap .button:active {
+	position:relative;
+	top:1px;
+}
+
+#simple_subscription_popup_accordion h3 {
+	font-family: Arial, serif;
+	text-shadow: 0px 0px 0px #aaa;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+#simple_subscription_popup_accordion .left_half {
+	float: left;
+	width: 45%;
+}
+
+#simple_subscription_popup_accordion .text {
+	display: block;
+	font-size: 10px;
+	color: #5D5D5D;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 7px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.contenttextarea {
+	float: left;
+}
+
+.main_form_container {
+	overflow: hidden !important;
+}
+
+.main_form_container>a {
+	position: absolute;
+	right:50px;
+	font-size: 12px;
+}
+
+.colors {
+	padding-top: 10px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+#simple_subscription_popup_accordion .text2 {
+	display: block;
+	font-size: 10px;
+	color: #5D5D5D;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 7px;
+	padding-left: 10px;
+	float:left;
+}
+
+.text .titletext, #simple_subscription_popup_accordion .titletext {
+	width: 860px;
+}
+
+#simple_subscription_popup_accordion .right_half {
+	float: left;
+	width: 45%;
+	padding-left: 4%;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header {
+	margin-bottom: 8px;
+}
+.ui-timepicker-div dl {
+	text-align: left;
+}
+.ui-timepicker-div dl dt {
+	float: left; clear:left; padding: 0 0 0 5px;
+}
+.ui-timepicker-div dl dd {
+	margin: 0 10px 10px 45%;
+}
+.ui-timepicker-div td {
+	font-size: 90%;
+}
+.ui-tpicker-grid-label {
+	background: none; border: none; margin: 0; padding: 0;
+}
+
+.ui-timepicker-rtl{
+	direction: rtl;
+}
+.ui-timepicker-rtl dl {
+	text-align: right; padding: 0 5px 0 0;
+}
+.ui-timepicker-rtl dl dt{
+	float: right; clear: right;
+}
+.ui-timepicker-rtl dl dd {
+	margin: 0 45% 10px 10px;
+}
+
+.remove_answer, .add_answer, .add_question {
+	cursor: pointer;
+	display: block;
+	float: right;
+}
+
+.add_question, #simple_subscription_popup_accordion legend {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial, Times New Roman, Tahoma;
+}
+
+.remove_answer img, .add_answer img, .add_question img {
+	padding-top: 5px;
+}
+
+.added_answers input {
+	width: 50%;
+}
+
+.canvas_graph {
+	margin-left: 150px;
+}
+
+.questions_block {
+	width: 100%;
+}
+
+.answer_count:before {
+	content:url("../img/users.png");
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -30px;
+}
+
+.answer_count {
+	margin-left: 15px;
+}
+
+.simple_subscription_popup_preview {
+	float: left;
+    background: url("../img/select.png") repeat scroll center center transparent;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #444444;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+	margin-top: 19px;
+	margin-left: 5px;
+}
+
+.simple_subscription_popup_preview1001 {
+	background-color: #fff;
+}
+
+.simple_subscription_popup_preview1002 {
+	background-color: #000;
+}
+
+.simple_subscription_popup_preview1003 {
+	background-color: #000;
+}
+
+.simple_subscription_popup_preview1004 {
+	background-color: #C7122F;
+}
+
+.simple_subscription_popup_preview1005 {
+	background-color: #fff;
+}
+
+.simple_subscription_popup_preview1006 {
+	background-color: #000;
+}
+
+.simple_subscription_popup_preview1007 {
+	background-color: #000;
+}
+
+.ui-widget select {
+	font-size:9px !important;
+}
+
+.custom_field_section {
+	text-align: center;
+}
+
+.one-custom-field {
+	margin: 10px 0px 0px 0px;
+}
+
+.remove_cfield {
+	vertical-align: text-top;
+	cursor: pointer;
+}
+
+.add_custom_fields {
+	background: #ccc;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #A5A6A8;
+	color: #000;
+}
+
+.add_custom_fields:hover {
+	background: #A5A6A8;
+	cursor: pointer;
+	color: #000;
+	border: 1px solid #ccc;
+}
+
+.font_family {
+	width: 150px;
+}
+
+.play_button {
+	float: left;
+	margin-top: 22px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.targets {
+    margin:0 auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    margin: 0 auto;
+    border-radius: 4px;
+    width:auto;
+    padding:10px;
+}
+
+.target_text {
+    margin: 0px auto;
+    margin-top: 40%;
+    background: #f8f8f8;
+    width: 70px;
+    border: 1px solid #ddd;
+    padding: 2px;
+    border-radius: 2px;
+    color: #111;
+}
+
+.target {
+   border: 1px solid;
+   margin: 0px 10%;
+   width: 150px;
+   height: 150px;
+   display:inline-block;
+}
+
+#target {
+   border-radius: 150px;
+}
+
+.result {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   padding:12px;
+   padding-left: 15px;
+   margin: 10px 0px;
+   border: 1px solid #ddd;
+   background: #f8f8f8;
+}
+
+#gradX {
+    height: 200px; 
+    margin: 100px 34%;  
+	display:none;
+	position: absolute;
+	z-index: 10;
+	left:0%;
+	top:0%;
+}   
+
+#gradx_show_code {
+	display: none;
+}
+
+.inner {
+	margin-left: 3px;
+	width: 24px;
+	height: 19px;
+	margin-top: 3px;
+	background: linear-gradient(top , rgb(255, 255, 255) 35% , rgb(204, 204, 204) 70%);
+	background: -o-linear-gradient(top , rgb(255, 255, 255) 35% , rgb(204, 204, 204) 70%);
+	background: -ms-linear-gradient(top , rgb(255, 255, 255) 35% , rgb(204, 204, 204) 70%);
+	background: -moz-linear-gradient(top , rgb(255, 255, 255) 35% , rgb(204, 204, 204) 70%);
+	background: -webkit-linear-gradient(top , rgb(255, 255, 255) 35% , rgb(204, 204, 204) 70%);
+}
+
+.ui-slider-range { 
+	background: #5D5D5D; 
+}
+ 
+.ui-slider-horizontal { 
+	background: #CCCCCC; 
+	border: 1px solid #5D5D5D;
+}
+ 
+.ui-slider-handle { 
+	border: 1px solid #5D5D5D;
+	cursor: pointer;
+}
+
+.simple_subscription_popup_sliders {
+	float: left;
+	width: 125px;
+	margin-left: 23px;
+}
+
+.simple_subscription_popup_sliders input {
+	height: 14px;
+	width: 100%;
+	font-size: 9px !important;
+	border: 0px;
+	text-align: center;
+	padding:0px;
+	color: #000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 0px 0px !important;
+}
+
+.simple_subscription_popup_animation_speed_value {
+	margin-left: -10px;
+}
+
+.simple_subscription_popup_checkbox {
+	float: left;
+	width: 150px;
+	margin-left: 5px;
+	margin-top: 17px;
+}
+
+.simple_subscription_popup_radio {
+	float: left;
+	width: 250px;
+	margin-left: 5px;
+	margin-top: 17px;
+}
+
+.fiftypercent {
+	width: 48% !important;
+}
+
+#bglock {
+	position: fixed;
+	display:none;
+	top:0px;
+	left:0px;
+	z-index:999998;
+	width:100%;
+	height:100%;
+	background:#000000;
+	filter: alpha(opacity=80);
+	-khtml-opacity: 0.8;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+#ssp .cl_ssp {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	cursor: pointer;
+}
+
+#ssp .cl_top_ssp {
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	cursor: pointer;
+}
+
+#ui-datepicker-div {
+	z-index: 2 !important;
+}
+
+.ssf-disabled {
+	display: none !important;
+}
+
+.signup_error_span {
+	vertical-align: sub;
+	margin-left: 20px;
+	color: #CA0D0D;
+	font-weight: bold;
+}
+
+#plugin_directory iframe {
+	width: 100%;
+	height: 1000px;
+}

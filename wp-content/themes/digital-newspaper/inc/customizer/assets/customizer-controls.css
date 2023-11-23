@@ -927,7 +927,7 @@ position: fixed;
 /**********************************
   Typography
 **********************************/
-.customize-typography-control .inner-field.font-family input {
+.newsmatic-typography-popover .inner-field.font-family input {
   box-shadow: none;
 }
 
@@ -938,22 +938,25 @@ position: fixed;
   cursor: default;
 }
 
-.customize-typography-control .reset-button {
+.customize-typography-control .reset-button,
+.newsmatic-typography-popover .reset-button {
   font-size: 12px;
   box-shadow: none;
 }
 
-.customize-typography-control .typo-field .reset-button {
+.newsmatic-typography-popover .typo-field .reset-button {
   position: absolute;
   right: 80px;
 }
 
-.customize-typography-control .components-button.is-secondary:hover:not(:disabled):hover {
+.customize-typography-control .components-button.is-secondary:hover:not(:disabled):hover,
+.newsmatic-typography-popover .components-button.is-secondary:hover:not(:disabled):hover {
   color: #02abff;
   box-shadow: none;
 }
 
-.customize-typography-control .reset-button .dashicon {
+.customize-typography-control .reset-button .dashicon,
+.newsmatic-typography-popover .reset-button .dashicon {
   font-size: 12px;
 }
 
@@ -1023,14 +1026,14 @@ position: fixed;
   color: inherit;
 }
 
-.customize-typography-control .components-popover__content {
+.newsmatic-typography-popover .components-popover__content {
   width: 16rem;
   border-radius: 5px;
   border: none;
   margin: 0 auto;
 }
 
-.customize-typography-control .components-popover__content .typo-fields .typo-field {
+.newsmatic-typography-popover .components-popover__content .typo-fields .typo-field {
   position: relative;
   padding: 0 5px;
   margin: 5px 0;
@@ -1038,21 +1041,21 @@ position: fixed;
   border-bottom: 1px dashed #eee;
 }
 
-.customize-typography-control .components-popover__content .typo-fields .typo-field .responsive-icons {
+.newsmatic-typography-popover .components-popover__content .typo-fields .typo-field .responsive-icons {
   cursor: pointer;
   position: absolute;
   right: 16px;   
 }
 
-.customize-typography-control .components-popover__content .typo-fields .typo-field .responsive-icons .dashicons {
+.newsmatic-typography-popover .components-popover__content .typo-fields .typo-field .responsive-icons .dashicons {
   font-size: 16px;
 }
 
-.customize-typography-control .components-popover__content .typo-fields .typo-field .responsive-icons .dashicons.isActive {
+.newsmatic-typography-popover .components-popover__content .typo-fields .typo-field .responsive-icons .dashicons.isActive {
   color: #2271b1;
 }
 
-.customize-typography-control .components-popover__content .typo-fields .typo-field.field-group {
+.newsmatic-typography-popover .components-popover__content .typo-fields .typo-field.field-group {
   display: flex;
   align-items: center;
   position: relative;
@@ -1063,19 +1066,19 @@ position: fixed;
   border-bottom: 1px dashed #eee;
 }
 
-.customize-typography-control .components-popover__content .typo-fields .typo-field.field-group .inner-field {
+.newsmatic-typography-popover .components-popover__content .typo-fields .typo-field.field-group .inner-field {
   flex: 1;
   display: flex;
   justify-content: space-evenly;
 }
 
-.customize-typography-control .inner-field.text-decoration,
-.customize-typography-control .inner-field.text-transform {
+.newsmatic-typography-popover .inner-field.text-decoration,
+.newsmatic-typography-popover .inner-field.text-transform {
   margin: 0 2px;
 }
 
-.customize-typography-control .inner-field.text-decoration span,
-.customize-typography-control .inner-field.text-transform span {
+.newsmatic-typography-popover .inner-field.text-decoration span,
+.newsmatic-typography-popover .inner-field.text-transform span {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -1086,20 +1089,20 @@ position: fixed;
   border: 1px solid #dfe1e4;
 }
 
-.customize-typography-control .inner-field.text-decoration span.isActive,
-.customize-typography-control .inner-field.text-transform span.isActive {
+.newsmatic-typography-popover .inner-field.text-decoration span.isActive,
+.newsmatic-typography-popover .inner-field.text-transform span.isActive {
   color: #fff;
   background: #2271b1;
   border-color: #2271b1;
 }
-.customize-typography-control .inner-field.text-decoration span:first-child,
-.customize-typography-control .inner-field.text-transform span:first-child {
+.newsmatic-typography-popover .inner-field.text-decoration span:first-child,
+.newsmatic-typography-popover .inner-field.text-transform span:first-child {
   border-radius: 3px 0 0 3px;
   border-right: none;
 }
 
-.customize-typography-control .inner-field.text-decoration span:last-child,
-.customize-typography-control .inner-field.text-transform span:last-child {
+.newsmatic-typography-popover .inner-field.text-decoration span:last-child,
+.newsmatic-typography-popover .inner-field.text-transform span:last-child {
   border-radius: 0 3px 3px 0;
   border-left: none;
 }
@@ -1177,13 +1180,15 @@ position: fixed;
 *****************************************/
 .customize-block-repeater-control .components-button-group,
 .customize-radio-tab-control .components-button-group,
-.customize-responsive-multiselect-tab-control .components-button-group {
+.customize-responsive-multiselect-tab-control .components-button-group,
+.components-popover__content span.radio-bubble.isActive {
   display: flex;
 }
 
 .customize-block-repeater-control .components-button-group > button,
 .customize-radio-tab-control .components-button-group > button,
-.customize-responsive-multiselect-tab-control .components-button-group > button {
+.customize-responsive-multiselect-tab-control .components-button-group > button,
+.components-popover__content span.radio-bubble {
   flex: 1 1 auto;
   display: flex;
   justify-content: center;
@@ -1496,12 +1501,12 @@ body.rtl .customize-responsive-range-control .responsive-icons {
   left: 8px;
 }
 
-body.rtl .customize-typography-control .components-popover__content .typo-fields .typo-field .responsive-icons {
+body.rtl .newsmatic-typography-popover .components-popover__content .typo-fields .typo-field .responsive-icons {
   right: auto;
   left: 19px;
 }
 
-body.rtl .customize-typography-control .typo-field .reset-button {
+body.rtl .newsmatic-typography-popover .typo-field .reset-button {
   right: auto;
   left: 80px;
 }
@@ -1597,7 +1602,9 @@ min-width: 200px;
   Radio Bubble Control
 *************************/
 .customize-block-repeater-control span.radio-bubble.isActive,
-.customize-radio-bubble-control span.radio-bubble.isActive {
+.customize-radio-bubble-control span.radio-bubble.isActive,
+.components-popover__content span.radio-bubble.isActive
+ {
 background: #007cba;
 border-color: #007cba;
 color: #fff;
@@ -1605,7 +1612,8 @@ color: #fff;
 
 .customize-block-repeater-control span.radio-bubble,
 .customize-radio-bubble-control span.radio-bubble,
-.customize-radio-bubble-control div.radio-bubble {
+.customize-radio-bubble-control div.radio-bubble,
+.components-popover__content span.radio-bubble {
   cursor: pointer;
   padding: 4px;
   border: 1px solid #fff;
@@ -1634,7 +1642,8 @@ flex-wrap: wrap;
 }
 
 .customize-block-repeater-control .column-4 span.radio-bubble,
-.customize-radio-bubble-control .column-4 span.radio-bubble {
+.customize-radio-bubble-control .column-4 span.radio-bubble,
+.components-popover__content .column-4 span.radio-bubble {
 width: 50px;
 display: inline-block;
 }
@@ -1711,6 +1720,7 @@ margin-bottom: 0 !important;
 .post-query-field .radio-bubbles.column-2>span,
 .post-query-field .radio-bubbles.column-4>span {
 line-height: 2;
+color: #000;
 }
 
 /* Repeater popup */
@@ -1728,7 +1738,7 @@ line-height: 2;
 }
 
 /** Typography **/
-.customize-typography-control .components-dropdown__content .components-popover__content {
+.newsmatic-typography-popover.components-dropdown__content .components-popover__content {
   padding: 8px 5px;
   height: 100%;
 }
@@ -1951,7 +1961,27 @@ line-height: 2;
 
 
 
+.components-dropdown__content .components-popover__content {
+  padding: 15px;
+  width: 250px;
+  max-height: 400px;
+  overflow-y:scroll;
+}
 
+.components-popover__content .react-colorful__saturation {
+  height: 125px!important;
+}
+
+
+.components-popover__content .icon-picker-modal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.components-popover__content .icon-picker-modal i{
+  padding: 5px 7px;
+  font-size: 14px;
+}
 
 
 

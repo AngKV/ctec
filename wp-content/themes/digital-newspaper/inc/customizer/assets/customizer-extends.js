@@ -3506,6 +3506,7 @@
         flip: false,
         placement: 'bottom'
       },
+      contentClassName: "newsmatic-typography-popover",
       renderToggle: _ref => {
         let {
           isOpen,

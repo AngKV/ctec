@@ -121,14 +121,16 @@ function digital_newspaper_widget_fields( $instance, $args, $field_value ) {
                         } else {
                             $field_value = json_decode( $field_value, true );
                         }
-                            foreach( $options as $option_key => $option_value ) :
-                        ?>
-                                <div class="multicheckbox-single-item">
-                                    <input type="checkbox" id="<?php echo $instance->get_field_name( $args['name'] ).'['.$option_key.']'; ?>" value="<?php echo esc_attr( $option_key ); ?>" <?php if( is_array( $field_value ) ) if( in_array( $option_key, $field_value ) ) echo 'checked'; ?>>
-                                    <label for="<?php echo $instance->get_field_name( $args['name'] ).'['.$option_key.']'; ?>"><?php echo esc_html( $option_value ); ?></label>
-                                </div>
-                        <?php
-                            endforeach;
+                            if( $options ) :
+                                foreach( $options as $option_key => $option_value ) :
+                            ?>
+                                    <div class="multicheckbox-single-item">
+                                        <input type="checkbox" id="<?php echo $instance->get_field_name( $args['name'] ).'['.$option_key.']'; ?>" value="<?php echo esc_attr( $option_key ); ?>" <?php if( is_array( $field_value ) ) if( in_array( $option_key, $field_value ) ) echo 'checked'; ?>>
+                                        <label for="<?php echo $instance->get_field_name( $args['name'] ).'['.$option_key.']'; ?>"><?php echo esc_html( $option_value ); ?></label>
+                                    </div>
+                            <?php
+                                endforeach;
+                            endif;
                         ?>
                     </div>
                     <input class="widefat" id="<?php echo $instance->get_field_id( $args['name'] ); ?>" name="<?php echo $instance->get_field_name( $args['name'] ); ?>" type="hidden" value=<?php echo json_encode( $field_value ); ?> />

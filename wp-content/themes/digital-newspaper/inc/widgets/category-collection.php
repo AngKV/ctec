@@ -102,6 +102,7 @@ class Digital_Newspaper_Category_Collection_Widget extends WP_Widget {
      */
     function widget_fields() {
         $postCategories = get_categories();
+        $categories_options = [];
         foreach( $postCategories as $category ) :
             $categories_options[$category->slug] = $category->name. ' (' .$category->count. ') ';
         endforeach;
